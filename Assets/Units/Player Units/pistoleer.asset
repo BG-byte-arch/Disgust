@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd94ada1eed502c40acec333191b3df0, type: 3}
+  m_Name: pistoleer
+  m_EditorClassIdentifier: 
+  name: Pistoleer
+  spriteTexture: {fileID: 21300000, guid: 71babf63df484804f8f7c2cb16d86bd9, type: 3}
+  foodCost: 15
+  attackDamage: 1
+  hitpoint: 8
+  hitboxSize: 1.2
+  speed: 1
+  attackDelay: 1
+  ranged: 1
+  rangedAttackRange: 7
+  rangedAttackDelay: 2
+  rangedProjectileSpriteName: Pistol Bullet
+  rangedProjectileSpriteTexture: {fileID: 21300000, guid: 9ffc91d6b78c1b146a66a76d14345c13, type: 3}
+  rangedProjectileDamage: 4
+  rangedProjectileSpeed: 5
