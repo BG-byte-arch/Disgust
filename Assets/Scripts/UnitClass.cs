@@ -6,7 +6,7 @@ public class UnitClass : ScriptableObject
 {
     [Header("Default Unit Settings")]
     public new string name;
-    public Sprite spriteTexture;
+    public RuntimeAnimatorController animatorController;
     public int foodCost;
     public int attackDamage;
     public int hitpoint;
@@ -15,10 +15,15 @@ public class UnitClass : ScriptableObject
     public float attackDelay;
     [Header("Ranged Unit Settings")]
     public bool ranged;
+    public bool trajectoryMotion;
     public float rangedAttackRange;
     public float rangedAttackDelay;
     public string rangedProjectileSpriteName;
     public Sprite rangedProjectileSpriteTexture;
     public int rangedProjectileDamage;
     public float rangedProjectileSpeed;
+    [Header("Additional Unit Settings")]
+    public float minSpawnYoffset;
+    public float maxSpawnYoffset;
+    public int additionalOrderInLayer;
 }

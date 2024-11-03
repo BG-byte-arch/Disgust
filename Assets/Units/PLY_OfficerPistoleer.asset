@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd94ada1eed502c40acec333191b3df0, type: 3}
+  m_Name: PLY_OfficerPistoleer
+  m_EditorClassIdentifier: 
+  name: Officer Pistoleer
+  animatorController: {fileID: 9100000, guid: ce2a9f99e617e2140b9e29bab8ff317d, type: 2}
+  foodCost: 15
+  attackDamage: 10
+  hitpoint: 70
+  hitboxSize: 1.2
+  speed: 0.9
+  attackDelay: 1.75
+  ranged: 1
+  trajectoryMotion: 0
+  rangedAttackRange: 10
+  rangedAttackDelay: 0.565
+  rangedProjectileSpriteName: Pistol Bullet
+  rangedProjectileSpriteTexture: {fileID: 21300000, guid: 9ffc91d6b78c1b146a66a76d14345c13, type: 3}
+  rangedProjectileDamage: 25
+  rangedProjectileSpeed: 8
+  minSpawnYoffset: -0.5
+  maxSpawnYoffset: 0.3

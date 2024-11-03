@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd94ada1eed502c40acec333191b3df0, type: 3}
+  m_Name: EBL_Bloodfang
+  m_EditorClassIdentifier: 
+  name: Blood Fang
+  animatorController: {fileID: 9100000, guid: e99ee96156a3d5d479ab3370591864ab, type: 2}
+  foodCost: 8
+  attackDamage: 5
+  hitpoint: 70
+  hitboxSize: 1.2
+  speed: 2
+  attackDelay: 0.25
+  ranged: 0
+  trajectoryMotion: 0
+  rangedAttackRange: 0
+  rangedAttackDelay: 0
+  rangedProjectileSpriteName: 
+  rangedProjectileSpriteTexture: {fileID: 0}
+  rangedProjectileDamage: 0
+  rangedProjectileSpeed: 0
+  minSpawnYoffset: -0.5
+  maxSpawnYoffset: 0.3

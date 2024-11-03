@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd94ada1eed502c40acec333191b3df0, type: 3}
+  m_Name: EBL_FleshRed
+  m_EditorClassIdentifier: 
+  name: Fleshred
+  animatorController: {fileID: 9100000, guid: d6d686a047743564c9ff8fcc5df63995, type: 2}
+  foodCost: 15
+  attackDamage: 50
+  hitpoint: 120
+  hitboxSize: 1.2
+  speed: 0.75
+  attackDelay: 2.2
+  ranged: 0
+  trajectoryMotion: 0
+  rangedAttackRange: 0
+  rangedAttackDelay: 0
+  rangedProjectileSpriteName: 
+  rangedProjectileSpriteTexture: {fileID: 0}
+  rangedProjectileDamage: 0
+  rangedProjectileSpeed: 0
+  minSpawnYoffset: -0.5
+  maxSpawnYoffset: 0.3
+  additionalOrderInLayer: 3
